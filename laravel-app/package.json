@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "watch": "vite --watch",
+      "hot": "vite --host",
+      "browser-sync": "browser-sync start --proxy 'localhost:8000' --files 'resources/views/**/*.php, resources/js/**/*.js, resources/css/**/*.css'"
+    },
+    "devDependencies": {
+      "axios": "^1.7.4",
+      "browser-sync": "^2.29.3",
+      "laravel-vite-plugin": "^1.0",
+      "vite": "^5.0"
+    }
+  }
+  
